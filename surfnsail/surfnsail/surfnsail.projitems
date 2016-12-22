@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>50c5ad9b-ff2d-44a6-83b0-45912b67ce7d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>surfnsail</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\ResourcesPathConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Code\SportAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\AppDatabase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\SportContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Route.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\PositionItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SportItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SettingItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LoadingPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\AppRootPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\CommonPageType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\StartPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\TrackingPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\MonitoringPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\HistoryPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\PlaningPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CommonPages\TodayPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Kitesurfing\Kitesurfing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Sailing\Sailing.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SportCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\SportPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Surfing\SurfingPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Windsurfing\WindsurfingPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+  </ItemGroup>
+</Project>
